@@ -7,5 +7,5 @@ Shell da linguagem<br/>
 versão 2.12.7 
 
 - sbt<br/>
-Ferramenta para manuseamento de dependências e construção do executável<br/>
+Ferramenta para manuseamento de dependências e build dos projetos<br/>
 versão 1.2.7
