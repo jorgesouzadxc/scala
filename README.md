@@ -8,4 +8,4 @@ versão 2.12.7
 
 - sbt<br/>
 Ferramenta para manuseamento de dependências e build dos projetos<br/>
-versão 1.2.7
+versão 0.13.17
