@@ -2,10 +2,10 @@
 ## Repositório para treinamento e aprendizado da linguagem Scala
 
 ### Ambiente e ferramentas utilizadas
-- scala
-Shell da linguagem
+- scala<br/>
+Shell da linguagem<br/>
 versão 2.12.7 
 
-- sbt
-Ferramenta para manuseamento de dependências e construção do executável
+- sbt<br/>
+Ferramenta para manuseamento de dependências e construção do executável<br/>
 versão 1.2.7
