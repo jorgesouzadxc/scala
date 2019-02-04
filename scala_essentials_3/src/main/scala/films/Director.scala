@@ -1,0 +1,24 @@
+package films
+import java.time.Year
+
+case class Director(
+    firstName: String
+    ,lastName: String
+    ,yearOfBirth: Int
+    ,films: Seq[Film]
+) {
+
+    def moreThanNumber(numberOfFilms: Int): Boolean =
+        films.size > numberOfFilms
+
+    def directorBornBeforeYear(year: Int): Boolean =
+        year > yearOfBirth
+    
+    def listBM(year: Int, numberOfFilms: Int): Boolean =
+        moreThanNumber(numberOfFilms) && directorBornBeforeYear(year)
+
+    def getAge: Int =
+        Year.now.getValue - yearOfBirth
+
+}
+
