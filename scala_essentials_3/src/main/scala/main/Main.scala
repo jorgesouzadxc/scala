@@ -46,5 +46,10 @@ object Main extends App {
     val animals = Seq("cat", "dog", "penguin")
     val animals2 = "mouse" +: animals
     val animals3 = animals :+ "tyrannosaurus"
+
+    println(s"Filmes Nolan: ${nolan.getFilmsNames.mkString(", ")}")
+
+    println(s"Todos os nomes de filmes de todos os diretores: ${directors.flatMap(_.getFilmsNames).mkString(", ")}")
+    println(s"Filme mais recente de mcTiernan ${mcTiernan.getFirstFilmProduced}")
     
 }

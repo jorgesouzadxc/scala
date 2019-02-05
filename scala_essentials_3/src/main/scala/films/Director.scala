@@ -20,5 +20,13 @@ case class Director(
     def getAge: Int =
         Year.now.getValue - yearOfBirth
 
+    def getFilmsNames: Seq[String] =
+        films.map(_.name)
+
+    def getFirstFilmProduced: Film =
+        films.sortWith { (a, b)
+            a.yearOfRelease < b.yearOfRelease
+        }.headOption
+
 }
 
