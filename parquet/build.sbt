@@ -1,10 +1,9 @@
 scalaVersion     := "2.11.8"
 version          := "0.1.0"
 organization     := "com.carrefour"
-organizationName := "gen_parquet"
 description      := "Programa para geracao de arquivos parquet"
-mainClass        := Some("com.carrefour.ParquetGenerator")
-name             := "ParquetGenerator"
+mainClass        := Some("com.carrefour.parquet.ParquetGen")
+name             := "Parquet"
 
 val sparkVersion = "2.3.0"
 libraryDependencies ++= Seq(
